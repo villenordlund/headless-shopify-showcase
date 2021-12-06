@@ -1,0 +1,36 @@
+.button {
+  // @apply font-mono;
+  padding: 12px 24px;
+  display: inline-block;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  font-size: 0.691rem; // 11.062px
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  &:focus {
+    outline: none;
+  }
+  &--black {
+    border: 1px solid #000000;
+    color: #ffffff;
+    background-color: #000000;
+    &:hover {
+      border-color: #000000;
+      background-color: #ffffff;
+      color: #000000;
+    }
+  }
+  &--white {
+    color: #000000;
+    background-color: #ffffff;
+    &:hover {
+      background-color: #D3D3D3;
+    }
+  }
+  &--wide {
+    width: 100%;
+  }
+}
